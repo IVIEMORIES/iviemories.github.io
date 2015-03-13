@@ -9,6 +9,12 @@ body {
 	background-repeat: no-repeat;
 }
 
+img {
+	max-width: 92%;
+	height: auto;
+	min-width: 92%
+}
+
 h1 {
 	font-family: comic sans MS;
 	color: red;
@@ -23,13 +29,14 @@ h1 {
 	width: 100%;
 	padding: 1em 0;
 	float: left;
-    
+    color: #76a2ed;
 }
 
 #wrapper {
 	width: 100%;
 	padding: 1em 0;
-	background: yellow;
+	background: #76a2ed;
+	color: #76a2ed;
 	
 }
 
@@ -39,7 +46,7 @@ footer {
 	margin:0 auto;
 	width: 18%;
 	max-width: 900px;
-	color: yellow;
+	color: #76a2ed;
 	
 }
 
@@ -80,13 +87,13 @@ nav ul li a {
 nav ul li {
 	float: left;
 	width: 19%;
-	border-right: 1px solid yellow;
+	border-right: 1px solid #76a2ed;
 	text-align: center;
 	padding: 0;
 }
 
 nav ul li: nth-child(1) {
-	border-lef:1px solid red;
+	border-left:1px solid red;
 }
 
 nav ul li ul {
@@ -95,6 +102,7 @@ nav ul li ul {
 	width: 19.8%;
 	float: left;
 	left: 999em;
+	border:
 }
 
 nav ul li:hover ul {
