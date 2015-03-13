@@ -1,0 +1,163 @@
+/*
+Author: Yuxin Liu
+*/
+
+
+ body {
+	font-size: 18px;
+	background: url(http://i.imgur.com/tXUihcF.jpg);no-repeat center center fixed
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	margin:0;
+	background-repeat: no-repeat;
+}
+
+
+/*
+body:hover {
+	font-size: 18px;
+	background: black; 
+	margin:0;
+	background-repeat: no-repeat;
+}
+
+
+body:hover {
+	background: black;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+	margin:0;
+	background-repeat: no-repeat;
+	opacity: 0;
+	filter:alpha(opacity=0);
+    z-index: -10;
+}
+*/
+h1 {
+	font-size: 32px;
+	font-family: comic sans MS;
+	text-align: center;
+	color: silver;
+}
+
+h2 {
+	font-size: 32px;
+	font-family: comic sans MS;
+}
+
+#wrapper {
+	padding: 1em 0;
+	width: 100%;
+	background: url(http://i.imgur.com/Hk4bo6z.jpg);
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
+#wrapper:hover {
+	padding: 1em 0;
+	width: 100%;
+	background: url(http://i.imgur.com/Hk4bo6z.jpg);
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+}
+
+#top,
+#container,
+footer {
+	margin: 0 auto;
+	width: 88%;
+	max-width: 960px;
+}
+
+
+#cf {
+	
+  -webkit-transition: background 1s ease-in-out;
+  -moz-transition: background 1s ease-in-out;
+  -o-transition: background 1s ease-in-out;
+  transition: background 1s ease-in-out;
+}
+
+#cf:hover {
+	background:black;
+}
+
+/*------------------------------------------ NAVIGATION
+*/
+
+nav ul {
+	float: left;
+	padding:0;
+}
+
+nav ul li {
+	float: left;
+	margin: 0 .5em 0 0;
+	list-style:none;
+}
+
+nav ul li a {
+	text-decoration: none;
+	padding: .5em 1em;
+	background: white;
+	border-radius: 20px;
+	font-family: comic sans MS;
+}
+
+nav ul li a:hover {
+	background: aqua;
+}
+
+object {
+	display:block;
+	margin: auto;
+	z-index: 100;
+}
+
+/*MISC*/
+
+.clearfix:after {
+	content:".";
+	display:block;
+	height: 0;
+	clear:both;
+	visibility:hidden;
+} 
+
+/* GAME */
+
+.gallery li div.item {
+	position: relative;
+	text-align: center;
+}
+
+.gallery {
+	padding: 0;
+}
+
+.gallery li {
+	list-style: none;
+	float:left;
+	margin: 0 .5em 00;
+}
+.gallery object {
+	outline: 5px solid grey;
+}
+
+.gallery a {
+	display: block;
+}
+
+.gallery object {
+	display: block;
+
+
+
+
+
+
+
